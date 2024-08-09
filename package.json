@@ -1,12 +1,42 @@
 {
   "name": "hs_class_reunion_website",
   "version": "1.0.0",
+  "description": "A web application for managing and organizing a 5-year high school class reunion, featuring event information, live countdown timer, user authentication, notifications, and chat functionalities.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "test": "tests"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "scripts": {
+    "test": "echo \\\"No test specified\\\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JL7105/HS-Class-Reunion-Web-App.git"
+  },
+  "keywords": [
+    "reunion",
+    "class-reunion",
+    "event-management",
+    "web-app",
+    "countdown-timer",
+    "user-authentication",
+    "notifications",
+    "chat",
+    "AWS",
+    "Node.js",
+    "Express",
+    "PostgreSQL"
+  ],
+  "author": "Jace Lowe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JL7105/HS-Class-Reunion-Web-App/issues"
+  },
+  "homepage": "https://github.com/JL7105/HS-Class-Reunion-Web-App#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0"
+  }
 }
